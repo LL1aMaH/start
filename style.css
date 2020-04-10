@@ -1,0 +1,246 @@
+body {
+  background: url(images/bg.png) repeat;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 15px 25px;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.4s ease-in-out;
+  border-radius: 10px;
+  color: #40382D;
+  box-shadow: inset 0 -5px 0 #40382D;
+}
+.main-signin {
+  box-shadow: 0px 10px 20px #000;
+  width: 455px;
+  height: auto;
+  margin: 70px auto;
+}
+
+.main-signin .main-signin__head {
+  background: #242328;
+  border-bottom: 1px solid #2d2f32;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px 1px 0px #000;
+  padding: 12px 0;
+}
+.main-signin .main-signin__head p {
+  color: #586069;
+  text-align: center;
+  
+}
+.main-signin .main-signin__middle {
+  background: #1f1e23;
+  border-bottom: 1px solid #2d2f32;
+  border-top: 1px solid #2d2f32;
+  box-shadow: 0px 1px 0px #000;
+}
+.main-signin .main-signin__middle .middle__form {
+  margin: 40px 0 20px 0;
+}
+.main-signin .main-signin__middle .middle__form ::-webkit-input-placeholder {
+  color: #25262a;
+}
+.main-signin .main-signin__middle .middle__form :-moz-placeholder {
+  color: #25262a;
+}
+.main-signin .main-signin__middle .middle__form ::-moz-placeholder {
+  color: #25262a;
+}
+.main-signin .main-signin__middle .middle__form :-ms-input-placeholder {
+  color: #25262a;
+}
+.main-signin .main-signin__middle .middle__form input[type="text"], .middle__form input[type="email"], .main-signin .main-signin__middle .middle__form input[type="password"], .main-signin .main-signin__middle .middle__form input[type="submit"] {
+  background: #daf4fe;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  color: #25262a;
+  display: block;
+  margin: 20px;
+  outline: none;
+  padding: 5px 0;
+  width: 90%;
+}
+
+.main-signin .main-signin__middle .middle__form input[type="text"], .middle__form input[type="email"], .main-signin .main-signin__middle .middle__form input[type="password"] {
+  padding:15px 20px;
+  width:81%;
+}
+
+.main-signin .main-signin__middle .middle__form input[type="password"] {
+  border-top: 1px solid #acabab;
+  border-radius: 5px 5px 5px 5px;
+}
+.main-signin .main-signin__middle .middle__form input[type="submit"] {
+  background: #00aeef;
+  border-radius: 5px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #80d6f7;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor:pointer;
+  text-transform: uppercase;
+}
+.middle__form input[type="submit"]:hover {
+  opacity: 0.7;
+}
+.main-signin .main-signin__middle .middle__form input[type="submit"]:active {
+  background: #80d6f7;
+}
+.main-signin .main-signin__foot {
+  background: #242328;
+  border-top: 1px solid #2d2f32;
+  border-radius: 0 0 10px 10px;
+  float: left;
+  padding: 12px 0;
+  width: 100%;
+}
+.main-signin .main-signin__foot .foot__left {
+  float: left;
+  padding: 0 0 0 6%;
+  width: 56%;
+}
+.main-signin .main-signin__foot .foot__left p {
+  color: #586069;
+  margin: 0;
+  padding: 16px 0 0 0;
+  text-transform: uppercase;
+}
+.main-signin .main-signin__foot .foot__right {
+  float: left;
+  width: 38%;
+}
+.main-signin .main-signin__foot .foot__right .vk,
+.main-signin .main-signin__foot .foot__right .face {
+  float: left;
+}
+.main-signin .main-signin__foot .foot__right .vk a,
+.main-signin .main-signin__foot .foot__right .face a {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  display: block;
+  margin: -12px 0;
+  text-indent: -999em;
+  width: 85px;
+  height: 77px;
+}
+.main-signin .main-signin__foot .foot__right .vk a:hover,
+.main-signin .main-signin__foot .foot__right .face a:hover {
+  background-color: #2d2f32;
+}
+.main-signin .main-signin__foot .foot__right .vk a {
+  background: url(images/vk.png) no-repeat center;
+}
+.main-signin .main-signin__foot .foot__right .face a {
+  background: url(images/facebook.png) no-repeat center;
+  border-radius: 0 0 10px 0;
+}
+
+.foot__center p{
+  color: #586069;
+  margin: 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+input[type=submit] { 
+  height: 30px;
+}
+
+.menu {
+  position: fixed;
+	width: 25%;
+  background: #464E78;
+  height: 100%;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.menu_input [type="text"], .menu_input [type="email"], .menu_input [type="password"] {
+  background: #daf4fe;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  color: #25262a;
+  display: block;
+  margin: 20px 0px;
+  outline: none;
+  padding: 5px 0;
+  width: 95%;
+  height: 25px;
+}
+
+.menu_input [type="submit"]{
+  background: #daf4fe;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor:pointer;
+  text-transform: uppercase;
+  width: 95%;
+  margin: 30px 0 ;
+}
+.menu_input [type="submit"]:hover, .chat_sub [type="submit"]:hover{
+  opacity: 0.7;
+}
+.menu_input [type="submit"]:active, .chat_sub [type="submit"]:active {
+  background: #80d6f7;
+}
+.chat {
+  position: absolute;
+  left: 30%;
+  overflow: auto; 
+  display: table;
+  height: 100%;
+  width: 70%;
+}
+.messages {
+  display: table-row;
+  height: 100%;
+}
+
+.chat_sub [type="submit"]{
+  display: table-row;
+  background: #adcaf7;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor:pointer;
+  text-transform: uppercase;
+  margin: 10px 5px;
+}
+.chat textarea{
+  background: #dae8fe;
+  border-radius: 5px 5px 5px 5px;
+  color: #25262a;
+  display: block;
+  margin: 20px 0px;
+  padding: 5px 0;
+  width: 90%;
+  height: 50px;
+  resize: none;
+}
+.box  {
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #808080;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  display: none;
+	}
